@@ -1,0 +1,25 @@
+.edit{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.edit1{
+    font-size: 15px;
+}
+.bt1{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    display: block;
+
+}
+#card1{
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    background-color: #001219;
+    padding: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
