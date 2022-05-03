@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block style %}
+{% endblock %}
+
+{% block content %}
+<link rel ="stylesheet" type="text/css" href="{{url_for('static', filename='styles/articles.css')}}">
+<div class="container" id ="mains1">
+    {% for article in articles %}
+    <ul>
+        <div class="card" id ="mains">
+                <img src="{{article.urlToImage}}" id="image1" alt="Hey There">
+                <br>
+                <br>
+                <div class="mains2">
+                <p class ="edit">{{article.title}}</p>
+                <div class="card">
+                    <p class="edit1">{{article.description}}</p>
+                    <p class="edit2">{{article.publishedAt}}</p>
+                    <button class="bt1"><a href="{{article.url}}">Learn More</a></button>
+                </div>
+                </div>
+            </div>
+    </ul>
+    <hr>
+        {% endfor %}
+</div> 
+
+{% endblock %}
