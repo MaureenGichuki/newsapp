@@ -32,3 +32,6 @@ As a user, I would want to click on an article and read the full article on the 
 ## Contact Information
 You can reach me at[maureenwaruguru@gmail.com]
 
+## You can view the site here
+News App[https://tantalizers.herokuapp.com/]
+
