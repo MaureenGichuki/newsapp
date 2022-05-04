@@ -15,7 +15,7 @@ def create_app(config_name):
     #flask extention
     bootstrap.init_app(app)
 
-    #registration
+    #registration(blueprint)
     from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
